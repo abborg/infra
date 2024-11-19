@@ -1,0 +1,11 @@
+version: 3
+automerge: true
+projects:
+- name: terraform
+  dir: stacks/terraform
+  terraform_version: v1.9.8
+  terraform_distribution: terraform
+- name: opentofu
+  dir: stacks/opentofu
+  terraform_version: v1.8
+  terraform_distribution: opentofu
