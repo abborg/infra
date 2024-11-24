@@ -1,11 +1,20 @@
 version: 3
 automerge: true
 projects:
-- name: terraform
+- name: core-010-project
+  dir: core/010-project
+  terraform_version: v1.9.8
+- name: core-020-terraform-state
+  dir: core/020-terraform-state
+  terraform_version: v1.9.8
+- name: core/030-service-account
+  dir: core/030-service-account
+  terraform_version: v1.9.8
+- name: stacks-terraform
   dir: stacks/terraform
   terraform_version: v1.9.8
   terraform_distribution: terraform
-- name: opentofu
+- name: stacks-opentofu
   dir: stacks/opentofu
   terraform_version: v1.8
   terraform_distribution: opentofu
