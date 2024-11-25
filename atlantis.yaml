@@ -17,4 +17,4 @@ projects:
 - name: stacks-opentofu
   dir: stacks/opentofu
   terraform_version: v1.8
-  terraform_distribution: opentofu
+  terraform_distribution: opentofus
