@@ -5,4 +5,5 @@ resource "google_storage_bucket" "opentofu-bucket" {
   force_destroy = true
 
   public_access_prevention = "enforced"
+
 }
